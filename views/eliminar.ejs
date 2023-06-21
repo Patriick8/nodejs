@@ -1,0 +1,14 @@
+<%- include layouts/header.ejs %>
+<link rel='stylesheet' href='stylesheets/style.css'/>
+<div class="container form-container">
+
+    <form action="/eliminar" method="POST">
+      <div class="mb-3">
+        <label for="productId" class="form-label">ID del Producto:</label>
+        <input type="text" class="form-control" id="productId" name="productId" required>
+      </div>
+      <button type="submit" class="btn btn-danger">Eliminar</button>
+    </form>
+  </div>
+
+<%- include layouts/footer.ejs %>

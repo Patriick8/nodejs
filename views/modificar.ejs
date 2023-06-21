@@ -1,0 +1,30 @@
+<%- include layouts/header.ejs %>
+<link rel='stylesheet' href='stylesheets/style.css'/>
+<div class="container form-container3">
+    <h1>Modificar Producto</h1>
+  <form action="/modificar" method="POST">
+    <div class="mb-3">
+      <label for="productId" class="form-label">ID del Producto:</label>
+      <input type="text" class="form-control" id="productId" name="productId" required>
+    </div>
+    <div class="mb-3">
+      <label for="title" class="form-label">Título:</label>
+      <input type="text" class="form-control" id="title" name="title" required>
+    </div>
+    <div class="mb-3">
+      <label for="image" class="form-label">URL de la Imagen:</label>
+      <input type="text" class="form-control" id="image" name="image" required>
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Descripción:</label>
+      <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Precio:</label>
+      <input type="number" class="form-control" id="price" name="price" step="0.01" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Modificar</button>
+  </form>
+</div>
+
+<%- include layouts/footer.ejs %>
