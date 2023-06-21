@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #FDF5E6;/*Color de fondo del sitio web*/
+}
+
+a {
+  color: #00B7FF;
+}
+.navbar {
+  background-color: #e2c9af; /*Color de la barra de navegación*/
+  
+}
+
+.navbar-brand {
+  font-size: 30px; /*Cambiar tamaño del titulo*/
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Ajuste de altura del contenedor de eliminar */
+}
+
+.form-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: "";
+  height: 60vh; /* Ajuste de altura del contenedor de agregar */
+}
+
+.form-container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: "";
+  height: 73vh; /* Ajuste de altura del contenedor de modificar */
+}
